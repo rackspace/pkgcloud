@@ -339,9 +339,8 @@ describe('pkgcloud/openstack/identity', function () {
       ], function(err) {
         should.not.exist(err);
         should.exist(adminId.token);
-        adminId.validateToken(userId.token.id, userId.token.tenant.id, function(err, success) {
+        adminId.validateToken(userId.token.id, userId.token.tenant.id, function(err) {
           should.not.exist(err);
-          success.should.equal(true);
           done();
         });
       });
