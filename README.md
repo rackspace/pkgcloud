@@ -24,6 +24,10 @@ pkgcloud is a standard library for node.js that abstracts away differences among
 <a name="getting-started"></a>
 ## Getting Started
 
+```
+npm install pkgcloud
+```
+
 Currently there are six service types which are handled by pkgcloud:
 
 * [Compute](#compute)
