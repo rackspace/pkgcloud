@@ -24,6 +24,8 @@ pkgcloud is a standard library for node.js that abstracts away differences among
 <a name="getting-started"></a>
 ## Getting Started
 
+Installing pkgcloud is easy. You can either install via `npm` or add to it to [dependencies](https://npmjs.org/doc/json.html#dependencies) in your `package.json` file:
+
 ```
 npm install pkgcloud
 ```
